@@ -1,0 +1,21 @@
+.Card {
+  margin-bottom: 20px !important;
+}
+
+.Card.Title {
+  font-weight: bold !important;
+}
+
+.Card.Body {
+  background-color: #fff !important; /* Fundo branco para card */
+  border: 1px solid #007bff !important; /* Borda azul do Bootstrap */
+}
+
+.Card.Body > * {
+  margin-bottom: 5px !important;
+}
+
+.d-flex {
+  justify-content: center !important;
+  margin-top: 20px !important;
+}

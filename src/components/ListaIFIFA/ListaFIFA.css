@@ -1,0 +1,55 @@
+/* Estilos para as tabelas */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    font-family: 'Arial', sans-serif !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+th, td {
+    padding: 10px !important;
+    text-align: center !important;
+    border: 1px solid #ccc !important;
+}
+
+th {
+    background-color: #a8cfec !important; 
+    color: white !important;
+}
+
+td {
+    background-color: white !important;
+}
+
+/* Estilos para a paginação */
+.pagination {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 20px !important;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    margin: 0 5px !important;
+    padding: 8px 12px !important;
+    color: #a8cfec !important; 
+    border: 1px solid #a8cfec !important; 
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+    background-color: #a8cfec !important; 
+    color: white !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span {
+    background-color: #a8cfec !important; 
+    color: white !important;
+}
